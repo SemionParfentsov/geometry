@@ -5,13 +5,13 @@
 int main()
 { int x,y;
   double R;  
-    printf ("circle( ");
+    printf ("circle(");
     scanf ("%d %d",&x,&y);
     printf (",");
     scanf ("%lf", &R);
     printf (")");
-    printf ("circle (%d %d,%lf)", x, y, R);
-    system ("PAUSE");
+    printf ("\n");
+    printf ("circle (%d %d,%1.1lf)", x, y, R);
     return 0;
 }
     
